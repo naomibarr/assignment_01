@@ -1,8 +1,9 @@
-I became more familiar with Visual Studio tools, such as Explorer, Source Control, 
-Run And Debug, and Testing. For example, in bill.py, when I wrote grand_total 
-incorrectly, I was able to identify that there was a mistake by running tests 
-in Testing. In Run and Debug, I set a breakpoint inside the function, 
-grand_total, and used the step into function which allowed me to enter the function
-on the current line to debug it line-by-line while reading the Variables panel. 
-I am looking forward to learning how to use more of the tools available to me to 
-improve my Python coding skills.
+In bill.py, I was able to identify that there was a mistake by running tests in 
+Testing. In Run and Debug, I set a breakpoint inside the function, grand_total, 
+and used the step into function which allowed me to enter the function on the 
+current line to debug it line-by-line while reading the Variables panel. The 
+incorrect total taught me that function compositions requires tip_amount() and 
+subtotal to calculate grand_total. It also showed me how a failing test can reveal 
+where logic is wrong, which allows me to debug the function. My actionable goal is 
+to set expected results in my goal in order to identify errors in my code, then 
+use debugger to go line-by-line to pin point the place the calculation failed.
