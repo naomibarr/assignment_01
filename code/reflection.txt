@@ -1,9 +1,13 @@
-In bill.py, I was able to identify that there was a mistake by running tests in 
-Testing. In Run and Debug, I set a breakpoint inside the function, grand_total, 
-and used the step into function which allowed me to enter the function on the 
-current line to debug it line-by-line while reading the Variables panel. The 
-incorrect total taught me that function compositions requires tip_amount() and 
-subtotal to calculate grand_total. It also showed me how a failing test can reveal 
-where logic is wrong, which allows me to debug the function. My actionable goal is 
-to set expected results in my goal in order to identify errors in my code, then 
-use debugger to go line-by-line to pin point the place the calculation failed.
+In bill.py, I was able to identify that there the subtotal was mising by running 
+tests in Testing. Then, I used Run and Debug to set a breakpoint inside the function, 
+grand_total, and used the step into tool to enter the function and look at one line
+at a time through the VARIABLES panel. I expected to only have to use the debugger 
+to find faults in my code, but I learned that it best practice to have an idea of 
+what the result should be in order to identify that there is an issue (when you 
+don't get the correct answer).The incorrect total taught me that the function 
+required the tip_amount() and subtotal to calculate the grand_total. It also showed 
+me how a failing test can reveal when logic is wrong, which allows me to then 
+debug the function. My actionable goal is to set expected results through testing or
+comments to the right of the line when using functions to make calculations to 
+identify errors in my code, then use debugger to go line-by-line to examine the 
+variables to pin point the place the calculation failed.
