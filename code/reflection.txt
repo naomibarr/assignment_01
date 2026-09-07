@@ -1,4 +1,2 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from class, and make it actionable.
+This assignment wasn't too difficult. I wrote some Python to get the tests to pass.
+I also learned more about the submission process using GitHub and Graderthan.  
